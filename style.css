@@ -1,0 +1,91 @@
+body {
+    text-align: center;
+}
+
+.my_nav_bar {
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+}
+
+marquee {
+    background-color: aqua;
+}
+
+#principal {
+    width: 250px;
+}
+
+.icon-bar {
+    height: 10px;
+    width: 50px;
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.travel_mainDiv{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    border: 1px solid #c7c7c7;
+}
+.travel_mainDiv img{
+    width: 100%;
+    height: 300px;
+}
+.travel_mainDiv hr{
+    width: 100%;
+}
+.travel_mainDiv h5 , .travel_mainDiv p{
+    margin-left: 20px;
+}
+#achievementsID{
+    padding-bottom: 10px;
+}
+.movie_head{
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: inline-block;
+}
+.movie_head i{
+    float: right;
+}
+.movie_text span{
+    color: #ff7700;
+}
+#contact iframe{
+    width: 100%;
+    margin-top: 20px;
+}
+#contact2{
+    margin-top: 300px;
+}
+.envi_li{
+    margin-top: 15;
+}
+.envi_li h4{
+    border-bottom: 1px solid #ffffff;
+}
+.envi_li img{
+    border-radius: 25px;
+}
+.envi_li p{
+    margin-top: 10px;
+}
+.book{
+    cursor: pointer
+}
+.book hr { margin-bottom: 10px; }
+.modal-content { margin-top: 100px; }
+.img_modal { display: inline-block; }
+.p_modal { margin-top: 10px; }
+.modal-body { text-align: center }
+.frnd{
+    width: 240px;
+    height: 240px;
+}
